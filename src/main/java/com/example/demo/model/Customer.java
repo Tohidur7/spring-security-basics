@@ -9,7 +9,6 @@ import jakarta.persistence.Id;
 public class Customer {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id ;
     private String username;
     private String password ;
